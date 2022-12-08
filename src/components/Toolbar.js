@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Rect } from "react-konva";
-import { Stage, Layer,Ellipse } from 'react-konva';
+import { Stage, Layer, Ellipse } from 'react-konva';
 import { PersonD, PersonE } from './c4/Person';
 
 const _persons = [
@@ -86,7 +86,7 @@ export class Toolbar extends React.Component {
                                 />
                             );
                         })}
-                        
+
                     </Layer>
                 </Stage>
             </Fragment>
